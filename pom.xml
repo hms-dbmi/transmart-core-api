@@ -6,7 +6,7 @@
     <groupId>org.transmartproject</groupId>
     <artifactId>transmart-core-api</artifactId>
     <name>tranSMART Core API</name>
-    <version>1.2.2-hackathon-SNAPSHOT</version>
+    <version>1.2.2-hackathon-DBMI-SNAPSHOT</version>
 
     <build>
         <pluginManagement>
@@ -80,17 +80,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-    <distributionManagement>
-        <repository>
-            <id>repo.transmartfoundation.org-releases</id>
-            <url>https://repo.transmartfoundation.org/content/repositories/releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>repo.transmartfoundation.org-snapshots</id>
-            <url>https://repo.transmartfoundation.org/content/repositories/snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
 
     <properties>
         <groovyVersion>2.1.0</groovyVersion>
